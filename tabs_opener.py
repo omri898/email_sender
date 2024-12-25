@@ -1,7 +1,7 @@
 import streamlit as st
 
 # Streamlit app
-st.title("Open Multiple Resource-Intensive Tabs")
+st.title("Open Multiple Tabs")
 
 # List of resource-intensive websites
 urls = [
@@ -37,7 +37,7 @@ urls = [
     "https://www.alibaba.com"
 ]
 
-if st.button("Open 30 Tabs"):
+if st.button("Click here to start the scenario"):
     # JavaScript to open multiple tabs
     js_code = "<script>\n"
     for url in urls:
