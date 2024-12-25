@@ -3,6 +3,15 @@ import streamlit as st
 # Streamlit app
 st.title("Open Multiple Tabs")
 
+# Instructions
+st.markdown("""
+### Instructions:
+1. Click **"Click here to start the scenario"**.
+2. Allow pop-ups in your browser settings if prompted.
+3. Refresh the page.
+4. Click **"Click here to start the scenario"** again.
+""")
+
 # List of resource-intensive websites
 urls = [
     "https://www.youtube.com",
