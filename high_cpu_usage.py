@@ -5,7 +5,7 @@ import streamlit as st
 st.title("Simulate Slow PC Performance")
 
 if st.button("Simulate High CPU Usage"):
-    while True:  # Run 4 processes to mimic heavy CPU usage
+    for _ in range(1000):  # Run 4 processes to mimic heavy CPU usage
         pass
 # if st.button("Simulate Low Disk Space"):
 #     os.makedirs("dummy_files", exist_ok=True)
