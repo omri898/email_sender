@@ -1,5 +1,3 @@
-
-import psutil
 import streamlit as st
 
 st.title("Simulate Slow PC Performance")
